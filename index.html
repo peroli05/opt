@@ -1,38 +1,54 @@
+.nav {
+  list-style: none;
+  display: flex;
+}
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Opt</title>
-  </head>
-  <body>
-      <div class="container">
-        <div class="navbar-header">
-        </div>
-        <div class="navbar-collapse collapse" id="nav-bar">
-          <ul class="nav navbar-nav">
-            <li class="active">
-              <a href="/">ダッシュボード</a>
-            </li>
-            <li>
-              <a href="/interviews">候補者一覧</a>
-            </li>
-            <li>
-              <a href="/users">ユーザの登録</a>
-            </li>
-            <li>
-              <a href="/rooms">会議室の登録</a>
-            </li>
-            <li>
-              <a href="/settings">設定</a>
-            </li>
-          </ul>
+.nav li {
+  width: 140px;
+  text-align: center;
+  background-color: #333;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 2px;
+}
 
-    <footer class="footer">
-      <div class="container text-center">
-        <small>&copy; 2018 peroli technology Inc. All Rights Reserved.</small>
-      </div>
-    </footer>
-</body>
-</html>
+.nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+}
 
+.header-logo{
+  float:left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.copy-container h1{
+font-size: 140px
+}
+
+.copy-container h2{
+  font-size: 60px
+}
+
+.footer{
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
