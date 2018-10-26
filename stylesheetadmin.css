@@ -1,0 +1,15 @@
+.header {
+  margin: 0 auto;
+}
+
+.form-container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.submit {
+  padding: 8px 24px;
+  color: gray;
+  display: inline-block;
+  opacity: 0.8;
